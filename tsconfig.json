@@ -10,6 +10,9 @@
     ],
     "skipLibCheck": true
   },
-  "include": [],
-  "exclude": []
+  "exclude": [
+    "dist",
+    "node_modules",
+    "eslint.config.js"
+  ]
 }

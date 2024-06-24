@@ -1,24 +1,24 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
     "target": "es2018",
-    "module": "esnext",
     "baseUrl": ".",
-    "sourceMap": false,
-    "moduleResolution": "node",
-    "allowJs": false,
-    "strict": true,
-    "noUnusedLocals": true,
-    "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "removeComments": false,
     "rootDir": ".",
-    "types": [],
+    "module": "esnext",
+    "moduleResolution": "node",
     "paths": {
       "@datav-material/*": [
         "packages/*"
       ]
-    }
+    },
+    "resolveJsonModule": true,
+    "types": [],
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "removeComments": false,
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   }
 }
